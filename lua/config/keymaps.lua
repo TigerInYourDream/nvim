@@ -7,7 +7,7 @@
 vim.keymap.set({ "n", "v" }, "<leader>x2", ":split<CR>", {})
 vim.keymap.set({ "n", "v" }, "<leader>x3", ":vsplit<CR>", {})
 vim.keymap.set({ "n", "v" }, "<leader>x1", "<C-w>o", {})
-vim.keymap.set({ "n", "v", "t" }, "<leader>w", ":w<CR>", {})
+vim.keymap.set({ "n", "v", "t" }, "<leader>w", ":wall<CR>", {})
 
 -- config  for lazyterm
 local lazyterm = function()

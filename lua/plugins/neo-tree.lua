@@ -1,5 +1,6 @@
 return {
   "nvim-neo-tree/neo-tree.nvim",
+  "nvim-tree/nvim-web-devicons",
   opts = {
     filesystem = {
       filtered_items = {

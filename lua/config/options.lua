@@ -3,5 +3,3 @@
 
 vim.g.maplocalleader = ","
 vim.g.mapleader = ","
-
-vim.o.guifont = "Source Code Pro:h14"
