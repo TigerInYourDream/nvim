@@ -7,7 +7,6 @@
 vim.keymap.set({ "n", "v" }, "<leader>x2", ":split<CR>", {})
 vim.keymap.set({ "n", "v" }, "<leader>x3", ":vsplit<CR>", {})
 vim.keymap.set({ "n", "v" }, "<leader>x1", "<C-w>o", {})
-vim.keymap.set({ "n", "v", "t" }, "<leader>w", ":wall<CR>", {})
 
 -- config  for lazyterm
 local lazyterm = function()
@@ -15,3 +14,4 @@ local lazyterm = function()
 end
 vim.keymap.set("n", "<leader>xz", lazyterm, {})
 vim.keymap.set("t", "<leader>xz", "<cmd>close<cr>", {})
+vim.keymap.set({ "n" }, "Y", "y$", { desc = "Yank to end of line" })
